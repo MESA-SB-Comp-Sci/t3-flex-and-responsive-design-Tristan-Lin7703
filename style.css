@@ -3,29 +3,34 @@
 }
 header{
   /* Add height and width here */
+  height: 20vh;
   background-color: lightcyan;
   text-align: center;
 }
 
 .middle-section{
   /* Add height and width here */
+  height: 65vh;
   background-color: lightpink;
-  /* Add flex properties here */
+  display: flex;
 }
 
 aside{
   /* Add height and width here */
+  height: 65vh;
+  width: 50vw;
   background-color: lightseagreen;
 }
 
 .image-section{
   /* Add height and width here */
   background-color: aliceblue;
-  /* Add flex properties here */
+  display: flex;
+  flex-direction: column;
   text-align: left;
 }
 
 footer{
-  /* Add height and width here */
+  height: 15vh;
   background-color: lime;
 }
